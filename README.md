@@ -54,7 +54,7 @@ Throughout the project, we will leverage the models and resources provided by th
   
    **1.1 Ngspice**
    
-  ![image](https://github.com/SudeepGopavaram/Design_and_analysis_of_nmos_and_pmos_using_sky130pdk/assets/57873021/9073cdd0-8e57-4177-9557-cc476fa6e9c2)
+
 
   [Ngspice](https://ngspice.sourceforge.io/) is an open-source mixed-level/mixed-signal electronic circuit simulator widely used for circuit design, analysis, and verification. It allows users to 
   model and simulate the behavior of electronic circuits using a variety of circuit elements, including resistors, capacitors, inductors, transistors, and more.
@@ -69,7 +69,6 @@ Throughout the project, we will leverage the models and resources provided by th
   <section id = "magic" nane = "magic" class = "anchor" >
    
   ## **1.2 Magic**
-   ![image](https://github.com/SudeepGopavaram/Design_and_analysis_of_nmos_and_pmos_using_sky130pdk/assets/57873021/57ec58d6-9023-4d6a-ae0e-eb2db101f1db)
 
    [Magic](http://opencircuitdesign.com/magic/) is an open-source layout tool widely used in the field of digital integrated circuit design. It provides a powerful platform for creating and editing 
    layouts of integrated circuits at various levels of abstraction, ranging from individual transistors to complete chip designs.
@@ -86,7 +85,7 @@ Throughout the project, we will leverage the models and resources provided by th
 
    **1.3 Netgen**
    
-   ![image](https://github.com/SudeepGopavaram/Design_and_analysis_of_nmos_and_pmos_using_sky130pdk/assets/57873021/215efd81-b834-4845-a390-d8c8be694ed2)
+ 
 
    [Netgen](http://opencircuitdesign.com/netgen/) is an open-source netlist comparison and verification tool used in the field of electronic design automation (EDA). It provides a powerful platform for 
    analyzing and comparing digital circuit netlists to ensure consistency and correctness across different stages of the design process.
@@ -100,7 +99,6 @@ Throughout the project, we will leverage the models and resources provided by th
 
    **1.4 Xschem**
    
-   ![image](https://github.com/SudeepGopavaram/Design_and_analysis_of_nmos_and_pmos_using_sky130pdk/assets/57873021/90b859e9-d0f5-4bca-bff5-cb439948ecec)
 
    [Xschem](https://xschem.sourceforge.io/stefan/index.html) is an open-source electronic schematic capture and simulation tool widely used in the field of electronic design automation (EDA). It provides a versatile 
    platform for designing and simulating analog and digital circuits, facilitating the creation and analysis of complex circuit schematics.
@@ -115,7 +113,7 @@ Throughout the project, we will leverage the models and resources provided by th
 
    **1.5 Skywater Technology**
    
-   ![image](https://github.com/SudeepGopavaram/Design_and_analysis_of_nmos_and_pmos_using_sky130pdk/assets/57873021/f8f19c5c-1ded-40c1-a87b-82dc2e572bab)
+
 
    The [SkyWater](https://www.skywatertechnology.com/technology-and-design-enablement/) Technology Foundry 130nm Process Design Kit (PDK) is a comprehensive collection of files, libraries, and documentation that enables the design and 
    fabrication of integrated circuits (ICs) using the SkyWater 130nm process technology.
@@ -136,11 +134,10 @@ In this section, we will conduct an analysis of the NMOS and PMOS devices. For o
 
 To begin, open the Xschem application. Upon startup, the application window will be displayed which will look like this.
 
-![Xschem](https://github.com/SudeepGopavaram/Design_and_analysis_of_nmos_pmos_and_inveter_using_sky130pdk/assets/57873021/645240df-2a3d-4054-8c1a-14cfee174751)
+
 
 Create a new schematic by selecting the ```File``` option and choosing to create a new file. A blank window will appear where we can build our schematic.
 
-![Xschem_newfile](https://github.com/SudeepGopavaram/Design_and_analysis_of_nmos_pmos_and_inveter_using_sky130pdk/assets/57873021/fe8e4259-d104-4bb4-8ed9-d9cf85d4f89e)
 
 To instantiate the required components, use the shortcut ```Shift + I``` to open the component instantiation window. Here, you will find two libraries: "xschem device library" and "xschem_sky130 device library". Select the following components:
 
