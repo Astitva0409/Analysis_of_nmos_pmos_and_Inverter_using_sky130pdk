@@ -149,3 +149,4 @@ To instantiate the required components, use the shortcut ```Shift + I``` to open
 ```code_shown.sym``` block in Xschem is a versatile tool for adding custom code snippets, comments, or annotations within a schematic to convey additional information or highlight specific aspects of the design.
 
 Connect the components using wires to create the desired schematic. Use the ```W``` shortcut to draw wires between the components. Your schematic should resemble the desired configuration.
+![Image](https://github.com/user-attachments/assets/06c23ba7-ef3d-4c07-afa5-72ced76ce69d)
